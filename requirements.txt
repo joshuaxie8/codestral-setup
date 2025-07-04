@@ -1,0 +1,16 @@
+# Core model dependencies
+transformers>=4.42.0
+accelerate>=0.27.0
+# Note: to use GPU, install version of bitsandbytes with GPU support, e.g. bitsandbytes-cuda114
+
+# Mistral-specific dependencies
+mistral_inference>=1.6.0
+mistral_common>=1.6.3
+
+# PyTorch (CUDA support for RTX 3090)
+# View https://pytorch.org/get-started/locally/ if installation is not working
+torch>=2.7.0
+
+# Optional: For better performance
+xformers --index-url https://download.pytorch.org/whl/cu118
+bitsandbytes --prefer-binary --extra-index-url https://jllllll.github.io/bitsandbytes-windows-webui
