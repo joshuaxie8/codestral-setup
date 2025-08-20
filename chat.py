@@ -5,7 +5,7 @@ from mistral_common.protocol.instruct.messages import UserMessage
 from mistral_common.protocol.instruct.request import ChatCompletionRequest
 
 def load_codestral():
-    model_path = r"youre\file\path" # filepath to model (default $HOME/mistral_models/Codestral-22B-v0.1)
+    model_path = r"your\file\path" # filepath to model (default $HOME/mistral_models/Codestral-22B-v0.1)
     
     print("Loading Codestral model...")
     
